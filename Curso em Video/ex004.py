@@ -7,3 +7,4 @@ print(f'É alfanumérico? {frase.isalnum()}')
 print(f'Está em maiusculo? {frase.isupper()}')
 print(f'Está em minusculo? {frase.islower()}')
 print(f'Esta capitalizado? {frase.istitle()}')
+#Finalizado com sucesso!
