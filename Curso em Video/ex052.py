@@ -1,0 +1,3 @@
+num = int(inptu('Digite um número: ')
+
+#Em contrução...
