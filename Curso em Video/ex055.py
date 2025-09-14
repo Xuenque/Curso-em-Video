@@ -15,3 +15,4 @@ for i in range(5):
             menor = peso
 
 print(f'O maior peso é de {maior} \nO menor peso é de {menor}')
+#Finalizado com sucesso!
