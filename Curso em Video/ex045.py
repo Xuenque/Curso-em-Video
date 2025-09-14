@@ -33,3 +33,4 @@ else:
     print(f'Sua Jogada: {usu}'
           f'\nCompiuter Jogada: {jogada_computador}'
           f'\n\033[31mDERROTA\033[m')
+#Finalizado com sucesso!
