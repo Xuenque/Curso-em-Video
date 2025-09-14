@@ -6,4 +6,5 @@ elif n2 > n1:
     print('O segundo número é MAIOR.')
 else:
     print('Os dois númeos são iguais.')
+
 #Finalizado com sucesso!
