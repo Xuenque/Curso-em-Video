@@ -12,3 +12,4 @@ if cont == 2:
     print(f'\n\033[mO número {num} foi divisível {cont} vezes \nE por isso ele É PRIMO!')
 else:
     print(f'\n\033[mO número {num} foi divisível {cont} vezes \nE por isso ele NÃO É PRIMO!')
+#Finalizado com sucesso!
