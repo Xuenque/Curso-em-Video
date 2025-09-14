@@ -20,3 +20,4 @@ elif 30 < peso / (altura * altura) < 40:
 else:
     print(f'O IMC da pessoa é {peso / (altura * altura):.1f}'
           f'\nvocê está com \033[34mobesidade mórbida\033[m')
+#Finalizado com sucesso!
