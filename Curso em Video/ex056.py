@@ -10,7 +10,7 @@ for i in range(4):
     nome = str(input('Nome: ')).strip(). title()
     idade = int(input('Idade: '))
     idades.append(idade)
-    sexo = str(input('Sexo [M/F]: ')).strip().upper()
+    sexo = str(input('Sexo [M/F]: ')).strip()
     if i == 0 and sexo in 'Mm':
         maior_idade = idade
         homem_velho = nome
