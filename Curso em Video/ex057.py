@@ -1,6 +1,6 @@
 sexo = ''
 while sexo not in ['F', 'M']:
-    sexo = str(input('Iforme seu sexo: [F/M] ')).upper()
+    sexo = str(input('Iforme seu sexo: [F/M] ')).strip().upper()[0]
     
     if sexo not in ['F', 'M']:
         print('Opção invalida, digite novamente')
