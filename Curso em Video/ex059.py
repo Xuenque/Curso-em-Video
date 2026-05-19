@@ -8,13 +8,17 @@ while opcao != 5:
 
     if opcao == 1:
         print(f'A soma entre os números {num1} e {num2} é igual a {num1+num2}')
+        
     elif opcao == 2:
         print(f'A multipliocação entre os números {num1} e {num2} é igual a {num1*num2}')
+        
     elif opcao == 3:
         if num1 > num2:
             print(f'O maior número entre {num1} e {num2} é o {num1}')
+            
         else:
             print(f'O maior número entre {num1} e {num2} é o {num2}')
+            
     elif opcao == 4:
         print('Digite os novos números')
         num1 = int(input('Digite o 1° valor: '))
