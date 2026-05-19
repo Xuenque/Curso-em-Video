@@ -1,5 +1,6 @@
 num = int(input('Digite o seu número: '))
 fatorial = 1
+
 for fato in range (num, 0, -1):
     fatorial = fatorial * fato
     
