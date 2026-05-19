@@ -1,8 +1,8 @@
 num1 = int(input('Digite o 1° valor: '))
 num2 = int(input('Digite o 2° valor: '))
 opcao = 0
-while opcao != 5:
 
+while opcao != 5:
     print('Escolha uma das opções a baixo')
     opcao = int(input(f'[1]Somar \n[2]Muliplicar \n[3]Maior \n[4]Novos números \n[5]Sair do programa \nOpção: '))
 
