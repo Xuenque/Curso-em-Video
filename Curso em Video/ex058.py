@@ -4,7 +4,6 @@ print(f'\033[33m-=-\033[m'*19)
 print('\033[35mVou pensar em um número entre 0 e 5. Tente adivinhar...\033[m')
 print(f'\033[33m-=-\033[m'*19)
 
-
 num = int(input('Em qual número estou pensando? '))
 sorte = randint(0, 10)
 cs = 1
