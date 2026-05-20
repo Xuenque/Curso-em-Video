@@ -8,6 +8,7 @@ print(f'\033[33m-=-\033[m'*19)
 num = int(input('Em qual número estou pensando? '))
 sorte = randint(0, 10)
 cs = 1
+
 while sorte != num:
     if num < sorte:
         print('\033[31mMais... Tente mais um vez.\033[m')
