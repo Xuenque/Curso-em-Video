@@ -1,5 +1,3 @@
-maior = 0
-menor = 0
 soma = 0
 c = 0
 n = int(input('Digite um número: '))
@@ -26,5 +24,5 @@ while r != 'N':
     r = str(input('Quer continuar? [S/N]\n')).upper()
 
 media = soma / c
-print(f'A média dos números digitados é {media}\nSendo o {maior} o maior valor e o {menor} o menor valor.')
+print(f'Você digitou {c} números\nA média dos números digitados é {media}\nSendo o {maior} o maior valor e o {menor} o menor valor.')
 #Finalizado com sucesso!
