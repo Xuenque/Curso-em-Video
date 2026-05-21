@@ -12,10 +12,11 @@ historico = []
 
 while mais_termos != 0:
     while contador <= total:
-        print(f'{pt}', end=' ')
+        print(f'{pt}', end=' -> ')
         historico.append(pt)
         contador += 1
         pt += r
+    print('Pausa', end=' ')
     mais_termos = int(input('\nDeseja mostrar mais quantos termos?\n'))
     total = total + mais_termos
 
