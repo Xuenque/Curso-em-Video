@@ -7,7 +7,8 @@ r = int(input('Digite a razão: '))
 cont = 1
 
 while cont < 11:
-    print(f'{pt}', end=' ')
+    print(f'{pt}', end=' -> ')
     pt += r
     cont += 1
+print('Fim', end='')
 #Finalizado com sucesso!
